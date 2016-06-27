@@ -21,4 +21,7 @@
      <property name="suffix" value=".jsp"></property>
 	</bean>
 
+     <mvc:default-servlet-handler />
+     <mvc:resources mapping="/static/**" location="/WEB-INF/static/"/>
+
 </beans>

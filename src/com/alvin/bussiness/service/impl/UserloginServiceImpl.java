@@ -16,7 +16,9 @@ public class UserloginServiceImpl implements UserLoginService{
 	@Override
 	public boolean checkUser(User user) {
 		// TODO Auto-generated method stub
-		if(userMapper.selectByPrimaryKey(user.getId()) != null){
+		User user2= userMapper.selectByUserName(user.getUsername());
+		System.out.println(user2);
+		if(user2 != null){
 			return true;
 		}
 		

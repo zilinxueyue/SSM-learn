@@ -5,13 +5,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+
+<script src="static/lib/jquery.js"></script> 
 </head>
 <body>
 
 <form action="login.do">
 
-   <input type="text" name="username"><br>
-   <input type="text" name="password"><br>
+   User Name : <input type="text" name="username"><br>
+   Password : <input type="text" name="password"><br>
    <button type="submit">Submit</button>
 </form>
 </body>
