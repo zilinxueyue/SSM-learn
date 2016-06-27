@@ -6,9 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alvin.bussiness.service.UserLoginService;
+import com.alvin.mybatis.domain.JsonUser;
 import com.alvin.mybatis.domain.User;
 import com.alvin.service.UserService;
 import com.sun.javafx.collections.MappingChange.Map;
@@ -50,9 +52,10 @@ public class UserController {
 		
 	}
 	
+	
+	@RequestMapping(value="/jsontest.do")	
 	@ResponseBody
-	@RequestMapping("/jsontest.do")	
-	public String jsonTset(User user){
+	public String jsonTset(JsonUser user){
 		System.out.println(user.toString());
 		return "";
 	}

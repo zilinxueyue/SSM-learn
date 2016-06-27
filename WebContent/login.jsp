@@ -6,7 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 
-<script src="static/lib/jquery.js"></script> 
+<script type="text/javascript" src="static/lib/jquery.js"></script>
+<script  src="WEB-INF/js/jquery.js" >
+</script>
 </head>
 <body>
 
