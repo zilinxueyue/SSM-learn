@@ -9,8 +9,11 @@
 	<configs>
 		<config>src/springmvc-mybatis.xml</config>
 		<config>src/mybatis-config.xml</config>
+		<config>src/spring-securityConfig.xml</config>
 	</configs>
 	<autoconfigs>
+		<config>java:com.alvin.web.config.WebConfig</config>
+		<config>java:com.alvin.cross.SimpleCORSFilter</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>
