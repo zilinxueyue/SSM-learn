@@ -9,7 +9,7 @@
 	<configs>
 		<config>src/springmvc-mybatis.xml</config>
 		<config>src/mybatis-config.xml</config>
-		<config>src/spring-securityConfig.xml</config>
+		<config>src/spring-securityConfig.xml。back</config>
 	</configs>
 	<autoconfigs>
 		<config>java:com.alvin.web.config.WebConfig</config>
